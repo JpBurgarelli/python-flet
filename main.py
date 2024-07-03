@@ -9,6 +9,8 @@ def main(page: ft.Page):
     def submit_clicked(e):
         name_display.value = f"Primeiro Nome: {nameField.value}"
         last_name_display.value = f"Último Nome: {lastNameField.value}"
+        nameField.value = f"formulario enviado com sucesso!"
+        lastNameField.value = f"formulario enviado com sucesso!"
         page.update()
 
     def reset_clicked(e):
