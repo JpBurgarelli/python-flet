@@ -1,5 +1,4 @@
 import flet as ft
-
 class CustomButton(ft.ElevatedButton):
     def __init__(self, text="", bgcolor="#FFFFFF", color="#000000", on_click=None, **kwargs):
         super().__init__(text=text, on_click=on_click, bgcolor=bgcolor, color=color, **kwargs)
